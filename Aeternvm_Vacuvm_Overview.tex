@@ -1,0 +1,56 @@
+\documentclass[aps,prd,preprint,amsmath,amssymb]{revtex4-2}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+
+\title{Aeternvm Vacuvm: A Trilogy on Vacuum Depletion\\
+and the CKM Unitarity Deficit}
+\author{Gustavo Alves Conde}
+\affiliation{Aeternvm Vacuvm Collaboration, Itagua\c{c}u, ES, Brazil}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We present a coherent theoretical framework (Aeternvm Vacuvm) that reinterprets the present $\sim3\sigma$ first-row CKM unitarity deficit as a signature of a depletable vacuum rather than new particles. Three companion papers develop the idea: (I) continuum extrapolation and parameter scan fixing $\kappa_{\rm vac}\simeq5\times10^{-4}$; (II) predicted $A$-dependence of $V_{ud}$ from superallowed decays; (III) a working toy lattice implementation with dynamical depletion field. All numerical results are illustrative; full-scale Lattice QCD validation remains future work.
+\end{abstract}
+
+\section{Motivation}
+Lattice QCD evaluations of the $\gamma W$-box correction have reduced the theoretical uncertainty on $V_{ud}$ extracted from superallowed $\beta$ decays and revealed a deficit
+\begin{equation}
+\Delta_{\rm CKM}=1-(|V_{ud}|^2+|V_{us}|^2+|V_{ub}|^2)\simeq0.0015(5).
+\end{equation}
+We explore whether this deficit can be understood as the work required to deform a dynamical vacuum density $\phi$.
+
+\section{Core Hypothesis}
+The vacuum is assigned a local density field $\phi$ with potential $V(\phi)=\lambda(\phi^2-v^2)^2$. Coupling to the gauge sector via
+\begin{equation}
+S\supset\kappa_{\rm vac}\,\phi\,{\rm Tr}(F_{\mu\nu}F^{\mu\nu})
+\end{equation}
+induces an effective reduction of the weak matrix element
+\begin{equation}
+V_{ud}^{\rm eff}=V_{ud}^{\rm bare}(1-\kappa_{\rm vac}\langle\phi\rangle).
+\end{equation}
+A single ultra-weak coupling $\kappa_{\rm vac}\sim5\times10^{-4}$ accounts for the entire observed deficit.
+
+\section{Summary of the Trilogy}
+\begin{itemize}
+\item \textbf{Paper I} performs a parameter scan and continuum extrapolation showing that the deficit survives $a\to0$.
+\item \textbf{Paper II} predicts and fits a linear decrease of $V_{ud}$ with nuclear mass number $A$.
+\item \textbf{Paper III} supplies a minimal Metropolis code on $16^4$ that realizes the depletion mechanism and reproduces the target deficit.
+\end{itemize}
+
+\section{Outlook}
+The framework yields concrete, falsifiable predictions (ratio $R=V_{ud}(^{54}{\rm Co})/V_{ud}(^{10}{\rm C})$, magnetic-field dependence of $\Delta_R^V$, free-neutron versus nuclear tension). These can be tested with existing or near-future experimental precision without requiring new particles.
+
+\begin{acknowledgments}
+This work is exploratory and intended to stimulate discussion within the flavor and lattice communities.
+\end{acknowledgments}
+
+\begin{thebibliography}{99}
+\bibitem{Hardy2020} J.\ C.\ Hardy and I.\ S.\ Towner, Phys.\ Rev.\ C \textbf{102}, 045501 (2020).
+\bibitem{Seng2018} C.-Y. Seng et al., Phys.\ Rev.\ Lett.\ \textbf{121}, 241804 (2018).
+\end{thebibliography}
+
+\end{document}

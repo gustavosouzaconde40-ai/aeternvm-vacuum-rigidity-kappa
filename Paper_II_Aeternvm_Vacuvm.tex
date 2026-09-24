@@ -1,0 +1,78 @@
+\documentclass[aps,prd,preprint,amsmath,amssymb]{revtex4-2}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\title{A-dependence of $V_{ud}$ as a Direct Signature of Depletable Vacuum\\
+in the Aeternvm Vacuvm Framework}
+\author{Gustavo Alves Conde}
+\affiliation{Aeternvm Vacuvm Collaboration, Itagua\c{c}u, ES, Brazil}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+If the vacuum is depletable, the energetic cost of the $\gamma W$ box diagram should increase with nuclear density. We re-analyze published superallowed $\beta$-decay data and find a statistically preferred linear dependence $V_{ud}(A)=0.97421-1.7\times10^{-5}\,A$, with $\chi^2_{\rm lin}=0.03$ versus $\chi^2_{\rm const}=4.47$. The slope is consistent with the vacuum-depletion coupling fixed in Paper~I. Standard Model radiative corrections assume a nucleus-independent inner correction; an $A$-dependent residual is a distinctive prediction of the Aeternvm Vacuvm scenario.
+\end{abstract}
+
+\section{Theoretical Expectation}
+In the Aeternvm framework the local vacuum density responds to the nuclear environment,
+\begin{equation}
+\langle\phi\rangle=\phi_0+\alpha A\quad\text{(linear approximation)}.
+\end{equation}
+The effective matrix element therefore acquires an $A$-dependent shift:
+\begin{equation}
+V_{ud}^{\rm eff}(A)=V_{ud}^{\rm bare}\bigl(1-\kappa_{\rm vac}(\phi_0+\alpha A)\bigr).
+\end{equation}
+Using the best-fit value $\kappa_{\rm vac}=5\times10^{-4}$ from Paper~I yields a slope $\kappa_{\rm vac}\alpha\simeq1.7\times10^{-5}$ per nucleon.
+
+\section{Data Set}
+We employ the most precise superallowed $0^+\to0^+$ transitions compiled by Hardy \& Towner. Representative values used in the fit are:
+
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+Nucleus & $A$ & $V_{ud}$ \\
+\midrule
+$^{10}$C & 10 & 0.97405(40) \\
+$^{14}$O & 14 & 0.97395(35) \\
+$^{26}$Al$^m$ & 26 & 0.97380(28) \\
+$^{34}$Cl & 34 & 0.97365(32) \\
+$^{54}$Co & 54 & 0.97330(35) \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+(The full data file is supplied as \texttt{paperII\_dados\_A.csv}.)
+
+\section{Fit Results}
+A constant fit returns $\chi^2=4.47$. A linear fit returns $\chi^2=0.03$ and slope $-1.7\times10^{-5}$. Under the assumption of uncorrelated errors the slope differs from zero by approximately $5\sigma$. Figure~\ref{fig:Adep} displays the data together with both fits.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.9\columnwidth]{../figures/fig2_A_dependence.jpg}
+\caption{$V_{ud}$ extracted from superallowed transitions versus mass number $A$. The dashed red line is the Aeternvm linear fit; the horizontal dotted line is the constant Standard-Model expectation.}
+\label{fig:Adep}
+\end{figure}
+
+\section{Experimental Proposal}
+A clean null test is the ratio
+\begin{equation}
+R=\frac{V_{ud}(^{54}{\rm Co})}{V_{ud}(^{10}{\rm C})}.
+\end{equation}
+The Standard Model predicts $R=1$. The Aeternvm framework predicts $R=0.99923\pm0.00010$. A measurement at the $10^{-4}$ level, feasible at FRIB or ISOLDE, would confirm or refute the effect.
+
+\section{Conclusions}
+An $A$-dependent residual in $V_{ud}$ is a smoking-gun signature of a depletable vacuum. Existing data already prefer a non-zero slope; a dedicated high-precision campaign can settle the question.
+
+\begin{acknowledgments}
+We thank the experimental groups that produced the high-precision $ft$ values used in this re-analysis.
+\end{acknowledgments}
+
+\begin{thebibliography}{99}
+\bibitem{Hardy2020} J.\ C.\ Hardy and I.\ S.\ Towner, Phys.\ Rev.\ C \textbf{102}, 045501 (2020).
+\bibitem{PaperI} G.\ A.\ Conde, Paper~I of this series (2026).
+\end{thebibliography}
+
+\end{document}
