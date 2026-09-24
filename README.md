@@ -46,3 +46,29 @@ O material é disponibilizado para discussão científica e reprodução dos res
 ├── paperII_dados_A.csv
 ├── fig3_HMC_evolution.jpg
 └── LICENSE
+
+'''
+
+python3 lattice_aeternvm_sim.py
+
+'''
+
+@software{conde2026aeternvm,
+  author       = {Conde, Gustavo Alves},
+  title        = {Aeternvm Vacuvm: Vacuum Depletion as the Origin of the CKM Unitarity Deficit},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.22929619},
+  url          = {https://doi.org/10.5281/zenodo.22929619}
+}
+
+'''
+
+Licença
+Documentos e dados: Creative Commons Attribution 4.0 International (CC-BY-4.0)
+Código Python: MIT License
+
+Contato
+Gustavo Alves Conde
+Baixo Guandu – ES – Brasil
+Aeternvm Vacuvm Collaboration
