@@ -14,23 +14,23 @@
 
 Este repositório contém uma **proposta teórica exploratória** que reinterpreta a anomalia de unitariedade da matriz CKM (Cabibbo Angle Anomaly) como consequência de um vácuo deplecionável.
 
-- As simulações de rede apresentadas são **modelos toy** (Metropolis simplificado em 16⁴). **Não** são simulações Lattice QCD completas com HMC, fermions dinâmicos e extrapolação controlada.
+- As simulações de rede apresentadas são **modelos toy** (Metropolis simplificado em 16⁴). Não são simulações Lattice QCD completas com HMC, fermions dinâmicos e extrapolação controlada.
 - Os dados de Vud(A) utilizados no Paper II são uma reanálise ilustrativa.
-- O acoplamento κ_vac ≈ 5×10⁻⁴ é um parâmetro efetivo ajustado para reproduzir o déficit observado. Não constitui medição experimental de “rigidez do vácuo”.
+- O acoplamento kappa_vac ≈ 5×10⁻⁴ é um parâmetro efetivo ajustado para reproduzir o déficit observado. Não constitui medição experimental de “rigidez do vácuo”.
 
 O material é disponibilizado para discussão científica e reprodução dos resultados. Não deve ser apresentado como resultado estabelecido da Lattice QCD convencional.
 
----
+'''
 
 ## Principais Resultados
 
-| Paper | Conteúdo                              | Resultado principal                          |
-|-------|---------------------------------------|----------------------------------------------|
-| **I** | Extrapolação ao contínuo + scan       | κ_vac ≈ 5×10⁻⁴ reproduz Δ_CKM ≈ 0.0015      |
-| **II**| Dependência com número de massa A     | Slope ≈ −1.7×10⁻⁵ por nucleon                |
-| **III**| Código toy de rede 16⁴               | ⟨φ⟩ ≈ 1.0 , Vud_eff ≈ 0.97371                |
+| Paper | Conteúdo                          | Resultado principal                     |
+|-------|-----------------------------------|-----------------------------------------|
+| I     | Extrapolação ao contínuo + scan   | kappa_vac ≈ 5×10⁻⁴ reproduz Δ_CKM ≈ 0.0015 |
+| II    | Dependência com número de massa A | Slope ≈ −1.7×10⁻⁵ por nucleon           |
+| III   | Código toy de rede 16⁴            | ⟨φ⟩ ≈ 1.0 , Vud_eff ≈ 0.97371           |
 
----
+'''
 
 ## Estrutura do Repositório
 
@@ -39,8 +39,8 @@ O material é disponibilizado para discussão científica e reprodução dos res
 ├── Paper_II_Aeternvm_Vacuvm.tex
 ├── Paper_III_Aeternvm_Vacuvm.tex
 ├── Aeternvm_Vacuvm_Overview.tex
-├── lattice_aeternvm_sim.py          # Simulador Python 16⁴
-├── chroma_action_Aeternvm.xml       # XML ilustrativo
+├── lattice_aeternvm_sim.py
+├── chroma_action_Aeternvm.xml
 ├── varredura_completa.csv
 ├── regiao_anomalia.csv
 ├── paperII_dados_A.csv
