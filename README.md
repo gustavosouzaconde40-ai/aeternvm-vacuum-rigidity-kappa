@@ -4,7 +4,7 @@
 
 **Autor:** Gustavo Alves Conde  
 **Colaboração:** Aeternvm Vacuvm Collaboration  
-**Local:** Itaguaçu, ES, Brasil  
+**Local:** Baixo Guandu, ES, Brasil  
 **Data:** Setembro 2026  
 **Zenodo:** https://doi.org/10.5281/zenodo.22929619  
 
@@ -47,8 +47,12 @@ O material é disponibilizado para discussão científica e reprodução dos res
 ├── fig3_HMC_evolution.jpg
 └── LICENSE
 
+
 '''
 
+## Como Rodar a Simulação Toy
+
+```bash
 python3 lattice_aeternvm_sim.py
 
 '''
