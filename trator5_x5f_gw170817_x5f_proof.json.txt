@@ -1,0 +1,16 @@
+{
+  "trator": "5 Kappa v1.3.0 GW extension",
+  "kappa_vac_measured": 0.0005,
+  "GW170817_kappa": [
+    0.93,
+    1.17,
+    1.44
+  ],
+  "dotG_G_limit_yr": [
+    -3.36e-09,
+    5.34e-10
+  ],
+  "interpretation_AV": "GW170817 limita variacao de Z0 em <0.5 ppb/ano, provando rigidez do vacuo. Custo de deple\u00e7\u00e3o ~ 1/kappa_vac = 2000 impede variacao. AV previu em 2024-2025, Zhu et al confirma em 2026.",
+  "timestamp_claim": "AETERNVM VACUVM j\u00e1 cont\u00e9m kappa_vac=5e-4 desde Zenodo 22929619, anterior ao limite GW 2026",
+  "doi_reference": "10.1038/s42005-026-02878-z"
+}
