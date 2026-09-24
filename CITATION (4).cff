@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Tractor 5 - AETERNVM VACUVM - Vacuum Rigidity Cost"
+version: v1.2.0
+date-released: 2026-09-24
+authors:
+  - family-names: Alves Conde
+    given-names: Gustavo
+    affiliation: "Aeternvm Vacuvm Collaboration - Baixo Guandu - ES - Brazil"
+license: MIT
+keywords:
+  - vacuum-depletion
+  - CKM-anomaly
+  - kappa-vac
+  - lattice-qcd
+  - Aeternvm-Vacuvm
+doi: 10.5281/zenodo.22941107
+repository-code: "https://github.com/gustavosouzaconde40-ai/aeternvm-vacuum-rigidity-kappa"
