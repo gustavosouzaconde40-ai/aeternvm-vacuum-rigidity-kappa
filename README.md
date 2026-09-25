@@ -34,12 +34,14 @@ O material é disponibilizado para discussão científica e reprodução dos res
 
 ## Estrutura do Repositório
 
-```text
 ├── Paper_I_Aeternvm_Vacuvm.tex
 ├── Paper_II_Aeternvm_Vacuvm.tex
 ├── Paper_III_Aeternvm_Vacuvm.tex
+├── Paper_IV_Aeternvm_Vacuvm_GW170817.tex
 ├── Aeternvm_Vacuvm_Overview.tex
 ├── lattice_aeternvm_sim.py
+├── trator5_kappa_GW170817.py
+├── trator5_gw170817_proof.json
 ├── chroma_action_Aeternvm.xml
 ├── varredura_completa.csv
 ├── regiao_anomalia.csv
