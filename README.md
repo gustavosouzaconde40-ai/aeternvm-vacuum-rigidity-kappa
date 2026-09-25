@@ -34,6 +34,7 @@ O material é disponibilizado para discussão científica e reprodução dos res
 
 ## Estrutura do Repositório
 
+```text
 ├── Paper_I_Aeternvm_Vacuvm.tex
 ├── Paper_II_Aeternvm_Vacuvm.tex
 ├── Paper_III_Aeternvm_Vacuvm.tex
@@ -48,6 +49,7 @@ O material é disponibilizado para discussão científica e reprodução dos res
 ├── paperII_dados_A.csv
 ├── fig3_HMC_evolution.jpg
 └── LICENSE
+```
 
 
 '''
