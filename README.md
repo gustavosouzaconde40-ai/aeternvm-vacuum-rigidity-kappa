@@ -29,7 +29,7 @@ O material é disponibilizado para discussão científica e reprodução dos res
 | I     | Extrapolação ao contínuo + scan   | kappa_vac ≈ 5×10⁻⁴ reproduz Δ_CKM ≈ 0.0015 |
 | II    | Dependência com número de massa A | Slope ≈ −1.7×10⁻⁵ por nucleon           |
 | III   | Código toy de rede 16⁴            | ⟨φ⟩ ≈ 1.0 , Vud_eff ≈ 0.97371           |
-
+| **IV** | **GW170817 + Rigidez Z0 - Prova 7** | **κ=1,11±0,25, dotG/G<5,34e-10/yr => dotZ0/Z0<2,7e-10/yr, Barreira 10^53,5** |
 '''
 
 ## Estrutura do Repositório
