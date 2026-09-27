@@ -80,3 +80,38 @@ Contato
 Gustavo Alves Conde
 Baixo Guandu – ES – Brasil
 Aeternvm Vacuvm Collaboration
+
+'''
+
+---
+
+## V6.8 Update - Five-Tractor Proof Chain of Z0 = 376.73 Ω [NEW - 26-Sep-2026]
+
+> Este repositório é o HEAD atual do formalismo. Esta seção nova conecta a Trilogia CKM acima com a batalha central do Z0.
+
+**Manuscrito congelado China:** RAA-2026-0669 (26-Sep-2026) - Four-tractor depletion road: JWST to LHAASO 3.73 PeV - Research in Astronomy and Astrophysics - TAG v6.7.1-china-RAA-0669 - NÃO ALTERAR
+
+**Versão atual:** V6.8 - Five-tractor with BESIII X(2370) glueball
+
+### Cadeia de 5 Tratores - Denominador Comum Z0
+
+1.  **Tractor-1 Conde Ruler:** I=log(1+rho/rho0), k=2*pi*Z0/S_inst=8.45 Ω (S_inst=280) - Modelo nulo imutável 1M gaps Z'=gap/ln(p) média 1.00041294 | DOI 10.5281/zenodo.22651450
+2.  **Tractor-2 FAST-10P:** Z0=376.730313 Ω unidade natural | DOI 10.5281/zenodo.22821262
+3.  **Tractor-3 JWST CEERS:** High-z excess = vácuo ativo larga escala
+4.  **Tractor-4 LHAASO 3.73 PeV:** Cygnus X-3 tau_AV=0.81 <1 vs tau~4.5 = transparência anômala
+5.  **Tractor-5 BESIII X(2370):** [NOVO] Glueball self-binding puro - M=2370 MeV J^PC=0^-+ flavor-singlet - Prova lab de Z-Bits saturados. Ref: https://www.youtube.com/watch?v=obqUOnfKi-Y (PIPA)
+
+**Hierarquia de Repos:**
+- Primary this repo: https://zenodo.org/records/22949508 -> V6.8 (rigidity kappa)
+- Legacy: AETERNVMVACUVM / 22873164
+- Null model: conde-governante / 22651450
+- Evidence: VACUO-ATIVO-6-PROVAS / 22837427
+- Lab: ENGINE / 22850558
+
+**Proof:** JWST + IXPE PD=0.556 + LHAASO + LZ 2.6σ + BESIII X(2370) -> Lambda_eff(Z0, nabla I)=Z0 f(|nabla I|)
+
+Data Availability: China-VO PaperData / ScienceDB per RAA.
+
+### Pasta do 5º Trator
+Ver `/tractor-5-BESIII-X2370-glueball-pure-self-binding/` com PDF isolado V6.8
+
