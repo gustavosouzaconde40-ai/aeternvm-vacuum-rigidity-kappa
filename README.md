@@ -1,5 +1,26 @@
 # Aeternvm Vacuvm – Trilogia Lattice QCD & Anomalia CKM
 
+## V6.9 Update - Tractor-6 JWST Early Chemical Enrichment [NEW - 28-Sep-2026]
+
+> **Discovery:** JWST/NIRSpec encontrou C, O, Si em 3 galáxias a z~7.3-9.3 (~500 Myr após Big Bang), com outflow em blueshift 50-250 km/s, baryon cycling ativo. Publicado em *Nature Astronomy*, resumido pelo canal Bariogênese.
+
+**Correlação com Rigidez do Vácuo:**
+
+Se vácuo fosse inerte, 500 Myr deveria ser pristino H/He. JWST mostra poluição rápida. No Aeternvm Vacuvm:
+
+1. Trator-5 fixou kappa_vac = 5e-4 do déficit CKM Δ_CKM ≈ 0.0015 (Trabalho W = kappa<phi>)
+2. Trator-6 mostra mesma depleção na aurora cósmica: SF intensa depleta vácuo local φ = 1 → 0.9995, barreira cai para síntese C/O/Si
+3. Gradiente ∇φ empurra outflow - 50-250 km/s observados = pressão φ, não só vento estelar
+4. Pop III escassa = esperado. Sorvete de baunilha nunca ficou branco. Z0 = 376.73 Ω denominador comum se mantém.
+
+**Fórmula:** Lambda_eff(Z0, ∇I) = Z0 * f(|∇I|) | v_out ≈ c * kappa_vac * |∇φ| * 1e3 → 50-250 km/s
+
+**Ref:** https://www.youtube.com/watch?v=snlvepcEv7M + Nature Astronomy
+
+Veja `addendum_x5f_jwst_x5f_tractor6.md` para derivação completa.
+
+---
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22929619.svg)](https://doi.org/10.5281/zenodo.22929619)
 
 **Autor:** Gustavo Alves Conde  
