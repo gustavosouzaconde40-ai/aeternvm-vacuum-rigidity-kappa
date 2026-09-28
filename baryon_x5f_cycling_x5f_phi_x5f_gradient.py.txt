@@ -1,0 +1,20 @@
+"""
+Tractor-6 JWST Early Enrichment Emulator
+Calculates phi gradient driven outflow velocity from kappa_vac
+"""
+import numpy as np
+
+kappa_vac = 5e-4
+Z0 = 376.730313
+
+def outflow_velocity(kappa, grad_phi, c=299792.458):
+    # v ~ c * kappa * |∇phi| * scaling
+    # toy scaling to match 50-250 km/s observed
+    return c * kappa * grad_phi * 1e3  # km/s
+
+grads = np.linspace(0.0001, 0.001, 5)
+for g in grads:
+    v = outflow_velocity(kappa_vac, g)
+    print(f"grad_phi={g:.5f} -> v_out={v:.1f} km/s")
+
+# Expected: grad_phi ~ 0.0003-0.001 gives 45-150 km/s, higher gradients up to 250 km/s
