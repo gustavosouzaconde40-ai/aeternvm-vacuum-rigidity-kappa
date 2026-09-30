@@ -136,3 +136,9 @@ Data Availability: China-VO PaperData / ScienceDB per RAA.
 ### Pasta do 5º Trator
 Ver `/tractor-5-BESIII-X2370-glueball-pure-self-binding/` com PDF isolado V6.8
 
+
+---
+### Nota de Rodapé - Referência Externa Isolada [NÃO integra o formalismo central Aeternvm Vacuvm]
+
+> Correspondência numérica do piso IR $a_* = c H_0 / 2\pi \approx 1,08\times10^{-10} m/s^2$ derivado analiticamente via Wilson loop no horizonte de Cauchy + benchmark SPARC $\Delta BIC = +614$ (153 galáxias) reportado em Borges, L. - Projeto Omega - DOI: 10.5281/zenodo.23019172 [e coleção 23024497]. Citada apenas como referência externa isolada para $f(|\nabla I|) = \mu(a/a_*)$ no limite $| \nabla I | \to 0$, sem adoção do aparato ontológico do autor. Formalismo central permanece AETERNVMVACUVM 22873164 / Primary 22949508 / Null 22651450 / Evidence 22837427 / Lab 22850558 / RAA-2026-0669 congelado.
+
